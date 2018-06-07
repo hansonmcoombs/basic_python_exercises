@@ -71,4 +71,4 @@ foods = {'peanut butter': 'jam', 'eggs': 'bacon', 'muslie': 'milk'}
 # below is an automated checking routine.  When you run the script it will give you feedback on your answers.
 # if you make a mistake in your code that raises an exception (error) then you will have to fix that before you can
 # check your answers
-check_exercise_1(globals()) # don't worry about how this works for now
+check_exercise_1(globals())  # don't worry about how this works for now

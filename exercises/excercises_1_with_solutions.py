@@ -62,7 +62,7 @@ fruit_types.append('raspberries')
 
 # Problem 1.2.4 it turns out that all of the South Island Regional Councils were left off the nz_regional_councils list
 # Luckily they're in teh south_regional_councils list. Please add them to the list (again without typing them in)
-nz_regional_councils.extend(south_regional_councils) #todo this should be wrong
+nz_regional_councils.extend(south_regional_councils)  # todo this should be wrong
 
 # exercise 1.3 Dictionaries
 

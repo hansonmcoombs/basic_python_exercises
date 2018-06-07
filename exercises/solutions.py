@@ -6,6 +6,7 @@ Date Created: 7/06/2018 8:28 AM
 
 from copy import deepcopy
 
+
 def check_exercise_1(answers):
     points = 0
     possible_points = 0
@@ -19,7 +20,7 @@ def check_exercise_1(answers):
     elif answers['num_picked'] != num_picked:
         print('your answer for num_picked is not correct')
     else:
-        print ('good job your answer for num_picked is correct')
+        print('good job your answer for num_picked is correct')
         points += 1
 
     print('checking 1.1.2')
@@ -31,9 +32,9 @@ def check_exercise_1(answers):
     elif answers[var] != correct_answer:
         print('your answer for {} is not correct'.format(var))
     elif not isinstance(answers[var], int):
-        print ('{} is the wrong data type'.format(var))
+        print('{} is the wrong data type'.format(var))
     else:
-        print ('good job your answer for {} is correct'.format(var))
+        print('good job your answer for {} is correct'.format(var))
         points += 1
 
     print('checking 1.1.3')
@@ -45,9 +46,9 @@ def check_exercise_1(answers):
     elif answers[var] != correct_answer:
         print('your answer for {} is not correct'.format(var))
     elif not isinstance(answers[var], int):
-        print ('{} is the wrong data type'.format(var))
+        print('{} is the wrong data type'.format(var))
     else:
-        print ('good job your answer for {} is correct'.format(var))
+        print('good job your answer for {} is correct'.format(var))
         points += 1
 
     print('checking 1.1.4')
@@ -59,7 +60,7 @@ def check_exercise_1(answers):
     elif answers[var].lower() != correct_answer:
         print('your answer for {} is not correct'.format(var))
     else:
-        print ('good job your answer for {} is correct'.format(var))
+        print('good job your answer for {} is correct'.format(var))
         points += 1
 
     # section 1.2
@@ -73,9 +74,8 @@ def check_exercise_1(answers):
     elif answers[var] != 'blueberries':
         print('your answer for {} is not correct, remember python is zero indexed'.format(var))
     else:
-        print ('good job your answer for {} is correct'.format(var))
+        print('good job your answer for {} is correct'.format(var))
         points += 1
-
 
     print('checking 1.2.2')
     possible_points += 1
@@ -86,7 +86,7 @@ def check_exercise_1(answers):
     elif answers[var] != correct:
         print('your answer for {} is not correct'.format(var))
     else:
-        print ('good job your answer for {} is correct'.format(var))
+        print('good job your answer for {} is correct'.format(var))
         points += 1
 
     print('checking 1.2.3')
@@ -96,7 +96,7 @@ def check_exercise_1(answers):
     if answers[var] != correct:
         print('your answer for {} is not correct'.format(var))
     else:
-        print ('good job your answer for {} is correct'.format(var))
+        print('good job your answer for {} is correct'.format(var))
         points += 1
 
     print('checking 1.2.4')
@@ -118,9 +118,8 @@ def check_exercise_1(answers):
     elif answers[var] != correct:
         print('your answer for {} is not correct'.format(var))
     else:
-        print ('good job your answer for {} is correct'.format(var))
+        print('good job your answer for {} is correct'.format(var))
         points += 1
-
 
     # section 1.3
     print('checking 1.3.1')
@@ -132,7 +131,7 @@ def check_exercise_1(answers):
     elif answers[var] != correct:
         print('your answer for {} is not correct'.format(var))
     else:
-        print ('good job your answer for {} is correct'.format(var))
+        print('good job your answer for {} is correct'.format(var))
         points += 1
 
     print('checking 1.3.2')
@@ -146,7 +145,7 @@ def check_exercise_1(answers):
     elif answers[var] != correct:
         print('your answer for {} is not correct'.format(var))
     else:
-        print ('good job your answer for {} is correct'.format(var))
+        print('good job your answer for {} is correct'.format(var))
         points += 1
 
     print('you got {} out of {} points'.format(points, possible_points))
