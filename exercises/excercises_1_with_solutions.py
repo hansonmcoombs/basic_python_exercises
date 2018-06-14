@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-exercises to follow Basic Python Objects, Variables, and Operators and The Python List
+exercises to follow Basic Python Objects, Variables, and Operators, The Python List, and Dictionaries
 
 Author: matth
 Date Created: 7/06/2018 8:28 AM
