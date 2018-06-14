@@ -29,23 +29,23 @@ Exercise Prerequisites
 | exercise    | prerequisites / associated lessons                                                                                                         |
 +=============+============================================================================================================================================+
 |             |                                                                                                                                            |
-|             |     `What is python <https://basic-python.readthedocs.io/en/latest/what_python.html>`_                                                     |
-| exercise 1  |     `Building Python on Your computer <https://basic-python.readthedocs.io/en/latest/installing_python.html>`_                             |
-|             |     `Basic Python Objects, Variables, and Operators <https://basic-python.readthedocs.io/en/latest/basic_objects.html>`_                   |
-|             |     `The List <https://basic-python.readthedocs.io/en/latest/the_list.html>`_                                                              |
-|             |     `Dictionaries <https://basic-python.readthedocs.io/en/latest/dictionaries.html>`_                                                      |
+|             |     - `What is python <https://basic-python.readthedocs.io/en/latest/what_python.html>`_                                                     |
+| exercise 1  |     - `Building Python on Your computer <https://basic-python.readthedocs.io/en/latest/installing_python.html>`_                             |
+|             |     - `Basic Python Objects, Variables, and Operators <https://basic-python.readthedocs.io/en/latest/basic_objects.html>`_                   |
+|             |     - `The List <https://basic-python.readthedocs.io/en/latest/the_list.html>`_                                                              |
+|             |     - `Dictionaries <https://basic-python.readthedocs.io/en/latest/dictionaries.html>`_                                                      |
 |             |                                                                                                                                            |
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 | exercise 2  |                                                                                                                                            |
-|             |     `Conditional Statements <https://basic-python.readthedocs.io/en/latest/conditional_statements.html>`_                                  |
-|             |     `Loops in Python <https://basic-python.readthedocs.io/en/latest/loops.html>`_                                                          |
+|             |     - `Conditional Statements <https://basic-python.readthedocs.io/en/latest/conditional_statements.html>`_                                  |
+|             |     - `Loops in Python <https://basic-python.readthedocs.io/en/latest/loops.html>`_                                                          |
 |             |                                                                                                                                            |
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 | exercise 3  |                                                                                                                                            |
-|             |     `Strings, the good, the bad, and the ugly <https://basic-python.readthedocs.io/en/latest/string_details_formatted_output.html>`_       |
+|             |     - `Strings, the good, the bad, and the ugly <https://basic-python.readthedocs.io/en/latest/string_details_formatted_output.html>`_       |
 |             |                                                                                                                                            |
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 | exercise 4  |                                                                                                                                            |
-|             |     `Functions in Python <https://basic-python.readthedocs.io/en/latest/functions.html>`_                                                  |
+|             |     - `Functions in Python <https://basic-python.readthedocs.io/en/latest/functions.html>`_                                                  |
 |             |                                                                                                                                            |
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
