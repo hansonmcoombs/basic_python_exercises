@@ -149,3 +149,19 @@ def check_exercise_1(answers):
         points += 1
 
     print('you got {} out of {} points'.format(points, possible_points))
+
+
+def check_exercise_2(answers):
+    points = 0
+    possible_points = 0
+    raise NotImplementedError
+
+def check_exercise_3(answers):
+    points = 0
+    possible_points = 0
+    raise NotImplementedError
+
+def check_exercise_4(answers):
+    points = 0
+    possible_points = 0
+    raise NotImplementedError
