@@ -29,6 +29,8 @@ n_leaching_rate = [43, 25, 10, 13, 59, 8, 20, 30, 54, 61, 49, 32, 66, 44, 60, 21
 # their bills.  please use a loop to add the 15% sales tax onto their final bill and add that new value to the
 # bills_with_gst list below:
 bills_with_gst = []
+for b in bills:
+    bills_with_gst.append(b*1.15)
 
 # exercise 3.2
 # You have been tasked to separate a group of farms into 3 classes: 'low_emitter', 'moderate_emitter' and 'high_emitter'
@@ -36,7 +38,16 @@ bills_with_gst = []
 # where a farm is leaching less than 10 kg/ha/yr they are a 'low_emitter', where a farm is leaching 10 - 35 kg/ha/yr
 # (inclusive) it is classed as a 'moderate_emitter', finally if they are leaching more than 35 kg/ha/yr then they are
 # classed as a 'high_emitter'.  Please add each farms classification into the empty list "farm_emission_profiles" below
-farm_emission_profiles = []  # todo on the check, make a couple where they get the inclusive wrong
+farm_emission_profiles = []
+for n in n_leaching_rate:
+    if n < 10:
+        farm_emission_profiles.append('low_emitter')
+    elif n >= 10 and n <= 35:
+        # this is explicit, but redundant as no n<10 will ever get to this if statement
+        # you could replace line 45 with """elif n<=35:""" and get the same behaviour
+        farm_emission_profiles.append('moderate_emitter')
+    else:
+        farm_emission_profiles.append('high_emitter')
 
 # exercise 3.3 # todo a for loop coupled with a nested if statement
 # we have a number of groundwater abstraction bores which are near to rivers "wells".  We need you to assess how connected the
@@ -53,6 +64,24 @@ farm_emission_profiles = []  # todo on the check, make a couple where they get t
 # "sd7", "sd150", and "wells" are imported from another script, to import them into your consol, please run the lines
 # of code between the !!!
 sd_assesments = {}
+
+for well in wells:
+    s7 = sd7[well]
+    s150 = sd150[well]
+
+    if s7 >= 90:
+        temp = 'direct' # just creating a temporary variable
+    else:
+        if s150 >= 60:
+            temp = 'high'
+        elif s150 >= 40:
+            # we don't need to specify the <60 part as that is captured in the first if statement on line 73
+            # only wells with sd150 less than 60 will ever get here
+            temp = 'moderate'
+        else:
+            temp = 'low'
+    sd_assesments[well] = temp
+
 
 # below is an automated checking routine.  When you run the script it will give you feedback on your answers.
 # if you make a mistake in your code that raises an exception (error) then you will have to fix that before you can
