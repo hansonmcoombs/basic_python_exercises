@@ -18,7 +18,7 @@ test = 1
 # working week.
 
 # problem 1.1.2 now you need to box them up, each box can hold 35 apples.  please create a new variable 'num_boxes' which has the
-# number of boxes you will have at the end of the week.  note a fraction of a box does not makes sense. #todo
+# number of boxes you will have at the end of the week.  note a fraction of a box does not makes sense.
 
 # problem 1.1.3 finally please create a variable 'leftovers' which has the number of apples that are left over after boxing up.  again
 # a fraction of an apple does not make sense.

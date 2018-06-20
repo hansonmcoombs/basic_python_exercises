@@ -21,7 +21,7 @@ test = 1
 num_picked = 10 * 8 * 103 * 5
 
 # problem 1.1.2 now you need to box them up, each box can hold 35 apples.  please create a new variable 'num_boxes' which has the
-# number of boxes you will have at the end of the week.  note a fraction of a box does not makes sense. #todo
+# number of boxes you will have at the end of the week.  note a fraction of a box does not makes sense.
 
 num_boxes = num_picked // 35
 
@@ -62,7 +62,7 @@ fruit_types.append('raspberries')
 
 # Problem 1.2.4 it turns out that all of the South Island Regional Councils were left off the nz_regional_councils list
 # Luckily they're in teh south_regional_councils list. Please add them to the list (again without typing them in)
-nz_regional_councils.extend(south_regional_councils)  # todo this should be wrong
+nz_regional_councils.extend(south_regional_councils)
 
 # exercise 1.3 Dictionaries
 

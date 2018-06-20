@@ -49,7 +49,7 @@ for n in n_leaching_rate:
     else:
         farm_emission_profiles.append('high_emitter')
 
-# exercise 2.3 # todo a for loop coupled with a nested if statement
+# exercise 2.3
 # we have a number of groundwater abstraction bores which are near to rivers "wells".  We need you to assess how connected the
 # groundwater is to the river.  For our purposes we have four different levels of connection based on the percentage of
 # the groundwater derived from the river after 7 days (provided in "sd7") and after 150 days (provided in "sd150") the
