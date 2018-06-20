@@ -41,7 +41,6 @@ Exercise Prerequisites
 |             |   - `Loops in Python <https://basic-python.readthedocs.io/en/latest/loops.html>`_                                                          |
 |             |                                                                                                                                            |
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-
 | exercise 3  |                                                                                                                                            |
 |             |   - `Functions in Python <https://basic-python.readthedocs.io/en/latest/functions.html>`_                                                  |
 |             |                                                                                                                                            |
