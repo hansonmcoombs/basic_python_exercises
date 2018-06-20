@@ -512,25 +512,19 @@ def check_exercise_1(answers):
 def check_exercise_2(answers):
     points = 0
     possible_points = 0
-    raise NotImplementedError
 
-def check_exercise_3(answers):
-    points = 0
-    possible_points = 0
-
-
-    print('checking exercise 3.1')
+    print('checking exercise 2.1')
     possible_points += 1
     bills_with_gst = []
     for b in bills:
         bills_with_gst.append(b * 1.15)
     if answers['bills_with_gst'] == bills_with_gst:
-        print('good job, 3.1 is correct')
+        print('good job, 2.1 is correct')
         points += 1
     else:
-        print('sorry, 3.1 is not correct')
+        print('sorry, 2.1 is not correct')
 
-    print('checking exercise 3.2')
+    print('checking exercise 2.2')
     possible_points += 1
     farm_emission_profiles = []
     for n in n_leaching_rate:
@@ -543,12 +537,12 @@ def check_exercise_3(answers):
         else:
             farm_emission_profiles.append('high_emitter')
     if farm_emission_profiles == answers['farm_emission_profiles']:
-        print('good job, 3.2 is correct')
+        print('good job, 2.2 is correct')
         points += 1
     else:
-        print('sorry, 3.2 is not correct')
+        print('sorry, 2.2 is not correct')
 
-    print('checking exercise 3.3')
+    print('checking exercise 2.3')
     possible_points += 1
     sd_assesments = {}
 
@@ -569,31 +563,30 @@ def check_exercise_3(answers):
                 temp = 'low'
         sd_assesments[well] = temp
 
-    if sd_assesments ==answers['sd_assesments']:
-        print('good job, 3.3. is correct')
+    if sd_assesments == answers['sd_assesments']:
+        print('good job, 2.3. is correct')
         points += 1
     else:
-        print('sorry, 3.3. is not correct')
+        print('sorry, 2.3. is not correct')
     print('{} out of {} possible points'.format(points, possible_points))
 
 
-def check_exercise_4(answers):
+def check_exercise_3(answers):
     points = 0
     possible_points = 0
 
-    print('assessing exercise 4.1')
+    print('assessing exercise 3.1')
     user_function = answers['calc_sd']
     fun_output = user_function(sd7, sd150)
     if fun_output is None:
         print('your function is returning None, that is not right')
-    elif fun_output == example_4_fun(sd7,sd150):
+    elif fun_output == example_3_fun(sd7, sd150):
         print('nice it behaved as expected')
     else:
         print("hmm that's not what we would have expected... keep trying")
 
 
-
-def example_4_fun (sd7s, sd150s):
+def example_3_fun(sd7s, sd150s):
     sd_assesments = {}
     well_numbers = list(sd7s.keys())
     for well in well_numbers:
