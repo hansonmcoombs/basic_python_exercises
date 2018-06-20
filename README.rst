@@ -41,11 +41,8 @@ Exercise Prerequisites
 |             |   - `Loops in Python <https://basic-python.readthedocs.io/en/latest/loops.html>`_                                                          |
 |             |                                                                                                                                            |
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+
 | exercise 3  |                                                                                                                                            |
-|             |   - `Strings, the good, the bad, and the ugly <https://basic-python.readthedocs.io/en/latest/string_details_formatted_output.html>`_       |
-|             |                                                                                                                                            |
-+-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| exercise 4  |                                                                                                                                            |
 |             |   - `Functions in Python <https://basic-python.readthedocs.io/en/latest/functions.html>`_                                                  |
 |             |                                                                                                                                            |
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
