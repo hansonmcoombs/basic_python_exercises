@@ -36,9 +36,9 @@ bills_with_gst = []
 # where a farm is leaching less than 10 kg/ha/yr they are a 'low_emitter', where a farm is leaching 10 - 35 kg/ha/yr
 # (inclusive) it is classed as a 'moderate_emitter', finally if they are leaching more than 35 kg/ha/yr then they are
 # classed as a 'high_emitter'.  Please add each farms classification into the empty list "farm_emission_profiles" below
-farm_emission_profiles = []  # todo on the check, make a couple where they get the inclusive wrong
+farm_emission_profiles = []
 
-# exercise 3.3 # todo a for loop coupled with a nested if statement
+# exercise 3.3
 # we have a number of groundwater abstraction bores which are near to rivers "wells".  We need you to assess how connected the
 # groundwater is to the river.  For our purposes we have four different levels of connection based on the percentage of
 # the groundwater derived from the river after 7 days (provided in "sd7") and after 150 days (provided in "sd150") the

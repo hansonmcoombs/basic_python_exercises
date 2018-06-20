@@ -43,7 +43,26 @@ def calc_sd(sd7s, sd150s):
                    where sd150 is the stream depletion percentage after 150 days
     :return: a dictionary of {well_number: connection_level} connection level is one of 'direct', 'high', 'moderate', 'low'
     """
-    pass  #remember this just says do nothing... you will have to fix this
+    sd_assesments = {}
+    well_numbers = list(sd7s.keys())
+    for well in well_numbers:
+        s7 = sd7s[well]
+        s150 = sd150s[well]
+
+        if s7 >= 90:
+            temp = 'direct'  # just creating a temporary variable
+        else:
+            if s150 >= 60:
+                temp = 'high'
+            elif s150 >= 40:
+                # we don't need to specify the <60 part as that is captured in the first if statement on line 73
+                # only wells with sd150 less than 60 will ever get here
+                temp = 'moderate'
+            else:
+                temp = 'low'
+        sd_assesments[well] = temp
+    return sd_assesments
+
 
 
 # below is an automated checking routine.  When you run the script it will give you feedback on your answers.

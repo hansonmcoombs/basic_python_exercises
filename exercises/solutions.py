@@ -580,4 +580,36 @@ def check_exercise_3(answers):
 def check_exercise_4(answers):
     points = 0
     possible_points = 0
-    raise NotImplementedError
+
+    print('assessing exercise 4.1')
+    user_function = answers['calc_sd']
+    fun_output = user_function(sd7, sd150)
+    if fun_output is None:
+        print('your function is returning None, that is not right')
+    elif fun_output == example_4_fun(sd7,sd150):
+        print('nice it behaved as expected')
+    else:
+        print("hmm that's not what we would have expected... keep trying")
+
+
+
+def example_4_fun (sd7s, sd150s):
+    sd_assesments = {}
+    well_numbers = list(sd7s.keys())
+    for well in well_numbers:
+        s7 = sd7s[well]
+        s150 = sd150s[well]
+
+        if s7 >= 90:
+            temp = 'direct'  # just creating a temporary variable
+        else:
+            if s150 >= 60:
+                temp = 'high'
+            elif s150 >= 40:
+                # we don't need to specify the <60 part as that is captured in the first if statement on line 73
+                # only wells with sd150 less than 60 will ever get here
+                temp = 'moderate'
+            else:
+                temp = 'low'
+        sd_assesments[well] = temp
+    return sd_assesments
